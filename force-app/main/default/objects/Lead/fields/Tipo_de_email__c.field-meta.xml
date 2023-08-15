@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_email__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email A</fullName>
+                <default>false</default>
+                <label>Email A</label>
+            </value>
+            <value>
+                <fullName>Email B</fullName>
+                <default>false</default>
+                <label>Email B</label>
+            </value>
+            <value>
+                <fullName>Email C</fullName>
+                <default>false</default>
+                <label>Email C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
